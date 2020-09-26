@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.row {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+	background-image: url(img/main-bg.gif);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-40%);
+}
+.hero-text h1 {
+	font-size: 280%;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.span-m {
+	color: tomato;
+	letter-spacing: 30px;
+}
+
+.btn {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.fb-btn {
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid #3b5998;
+	border-radius: 50%;
+	background-color: #3b5998;
+}
+
+.fb-btn:hover {
+	background-color: #fff;
+	border-color: #3b5998;
+	color: #000;
+	transition: background-color 2s;
+}
+
+.gh-btn {
+	color: tomato;
+	border: 1px solid tomato;
+	border-radius: 50%;
+	padding: 10px 20px;
+}
+
+.gh-btn:hover {
+	background-color: tomato;
+	border-color: tomato;
+	color: #fff;
+	transition: background-color 2s;
+}
+
+.main-logo {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+	margin-top: 30px;
+}
+
+.main-nav {
+	list-style: none;
+	float: right;
+	margin-top: 30px;
+}
+
+.main-nav li { 
+
+	display: inline-block;
+	margin-right: 40px;
+ }
+
+.main-nav li:last-child {
+	margin-right: 0;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	color: #df80ff;
+	font-size: 90%;
+	border: 2px solid #df80ff;
+	padding: 5px 30px;
+	text-transform: uppercase;
+}
+
+.main-nav li a:hover {
+
+	background-color: red;
+	border-color: red;
+	color: #fff;
+	transition: background-color 0.6s;
+
+}
+
+section { padding: 50px 20px; }
+
+.band h2 {
+	font-size: 170%;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+.band h2:after {
+	content: " ";
+	display: block;
+	height: 2px;
+	width: 100px;
+	background-color: rgb(255, 51, 0);
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.about-text {
+	font-size: 90%;
+	padding: 30px 30px;
+	text-align: center;
+}
+
+.band-logo {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 0 0 0 130px;
+}
+
+.band h3 {
+	text-transform: uppercase;
+	font-size: 120%;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.box-p {
+	font-size: 90%;
+	line-height: 130%;
+	text-align: justify;
+	padding: 0 30px;
+}
