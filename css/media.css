@@ -1,0 +1,137 @@
+/*-----------------------------------------------------------*/
+/*------------------------ NOTBOOK --------------------------*/
+/*-----------------------------------------------------------*/
+@media (max-width: 1200px){
+	section { padding: 80px 30px; }
+	.row,{
+		width: 100%;
+		padding: 0 4%;
+	}
+	.hero-text { padding: 5% 2%; }
+	.p-p {
+		font-size: 130%;
+		margin-top: 24px;
+	}
+}
+
+/*-----------------------------------------------------------*/
+/*------------------------ TABLET ---------------------------*/
+/*-----------------------------------------------------------*/
+@media (max-width: 1023px) {
+
+	section{ padding: 90px 40px; }
+
+	.row { padding: 0 8%; }
+
+	body { font-size: 18px; }
+
+	.main-nav li {
+		 margin-right: 0px;
+		 padding-right: 42px;
+	 }
+	 .main-nav li:last-child {
+		margin-right: 0;
+	}
+
+	.hero-text { padding: 10% 4%; }
+
+	.main-logo { margin-top: 10px; }
+
+	.band h2,
+	.about-text{
+		padding: 13px 100px;
+		margin-right: 140px;
+	}
+	.about-text {
+		font-size: 95%;
+		word-spacing: 1px;
+		letter-spacing: 1px;
+	}
+	.band-boxs {
+		padding: 20px 165px;
+	}
+	.band-logo { margin: 0 0 12px 74px; }
+	.heart-boxs { padding-right: 170px; }
+
+	footer {
+		padding: 30px;
+	}
+	.social-links { margin-right: 110px; }
+}
+
+
+/*-----------------------------------------------------------*/
+/*------------------------ FABLET ---------------------------*/
+/*-----------------------------------------------------------*/
+@media (max-width: 767px) {
+	section{
+		padding: 80px 60px;
+	}
+	.row { padding: 0 10%; }
+	.main-logo {
+		height: 80px;
+		width: 80px;
+	}
+
+	.main-nav li {
+		margin-right: -11px;
+		font-size: 60%;
+	 }
+	 .main-nav li:last-child {
+		margin-right: 0;
+	}
+	.main-nav { margin-right: 156px; }
+
+	.hero-text h1 {
+	font-size: 220%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+  .btn{ font-size: 80%; }
+
+  .band h2,
+  .about-text{
+		padding: 20px 0;
+		margin-right: 470px;
+	}
+  .about-text { font-size: 90%; }
+
+  .band-boxs {
+		padding: 20px 180px;
+	}
+ .band-logo { margin: 0 0 20px 80px; }
+ .heart-boxs { padding-right: 280px; }
+ .col {
+		width: 80%;
+		margin: 0 40px 10px 0;
+	}
+ .band h3 { margin-right: 346px; }
+
+	.box-p {
+	font-size: 70%;
+	line-height: 140%;
+	padding: 5px 70px;
+	margin-right: 340px;
+}
+ .band-logo { margin-top: 25px; }
+
+}
+
+ .heart p {
+	font-size: 150%;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	padding: 50px 60px;
+}
+
+footer {
+		padding: 40px;
+	}
+.social-links { 
+	margin-right: 374px;
+	margin-bottom: 160px;
+}
+.copyright { padding-right: 473px; }
